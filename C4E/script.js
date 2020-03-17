@@ -38,3 +38,21 @@ function sqrt()
 	let x=document.calc.output.value;
 	document.calc.output.value=eval("Math.sqrt(x)");
 }
+function sin()
+{
+	let x=document.calc.output.value;
+	document.calc.output.value=eval("Math.sin(x)");
+}
+function cos()
+{
+	let x=document.calc.output.value;
+	document.calc.output.value=eval("Math.cos(x)");
+}
+function tan(){
+	let x=document.calc.output.value;
+	document.calc.output.value=eval("Math.tan(x)");
+}
+function log(){
+	let x=document.calc.output.value;
+	document.calc.output.value=eval("Math.log(x)");
+}
