@@ -9,12 +9,15 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Calculator Programming</h1>
+    <h1>Calculator Program</h1>
     <hr><br>
         <div id="container">
             <form name="calc">
+                <div id="upload">
                 <input type="text" name="output" placeholder="0" disabled="disabled">
+                <div id="bao3">
                 <br>
+                <div>
                 <input type="button" value='log'onclick="log('log')">
                 <input type="button" value='tan'onclick="tan('tan')">
                 <input type="button" value='cos'onclick="cos('cos')">
@@ -46,16 +49,19 @@
                 <input type="button" value='0'onclick="nhap('0')">
                 <input type="button" value='+'onclick="nhap('+')">
                 <br>
-                <input type="button" value='c'onclick="xoa()">
+                <input  id="bao" type="button" value='c'onclick="xoa()">
                 <input type="button" value='.'onclick="nhap('.')">
-                <input type="button" value='='onclick="calculation('=')">
                 <input type="button" value='%'onclick="nhap('%')">
+                <input id="bao"type="button" value='='onclick="calculation('=')">
                 <br>
+            </div>
             </form>
         </div>
             <br>
             
-            <h4>made by Bảo Bảo</h4>
+        <div id="div3">
+            <h4><a href="https://github.com/19521242bao/calc/tree/master/C4E"> made by Bảo Bảo ❤</a></h4>
             <h3><a href="page.html">Next Page</a></h3>
+        </div>
 </body>
 </html>
