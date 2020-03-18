@@ -74,8 +74,9 @@ input[type=button] {
 text-align: center;
 float:left;
 width: 23%;
-height: 3.0rem;
+height: 3.4rem;
 color:rgb(255, 255, 255);
+border:none;
 font-size: 2rem;
 transition: height 2s;
     -moz-transition: height 2s;
@@ -86,7 +87,8 @@ transition: all 0.1s 0.05s;
 
 } 
 input[type=button]:hover{
-  background:  rgb(13, 241, 47)
+  border-radius: 50%;
+  background:  grey
 }
 @media screen and (max-width:320px) {
   h1 {
